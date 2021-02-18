@@ -124,7 +124,7 @@ public class Message implements Validable {
     /**
      * Message text
      */
-    @SerializedName("text")
+    @SerializedName("body")
     @Required
     private String text;
 
