@@ -47,7 +47,7 @@ public class Message implements Validable {
     /**
      * Message author's ID
      */
-    @SerializedName("from_id")
+    @SerializedName("user_id")
     private Integer fromId;
 
     /**
